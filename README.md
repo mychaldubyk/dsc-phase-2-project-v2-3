@@ -8,7 +8,7 @@ We are a data science consulting company working with predictive sale pricing fo
 
 ## Business and Data Understanding 
 
-We are sourcing the data for this project from the King County House Sales dataset, which can be found at `kc_house_data.csv` in the data folder in this assignment's GitHub repository. The column name descriptions can also be found in this data folder, under the name 'column_names.md'.
+We are sourcing the data for this project from the King County House Sales dataset, which can be found at `kc_house_data.csv` in the data folder in this assignment's GitHub repository. The column name descriptions can also be found in this data folder, under the name `column_names.md`.
 
 
 
