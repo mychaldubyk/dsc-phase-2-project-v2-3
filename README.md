@@ -5,16 +5,22 @@ Our presentation, where we analyze our dataset can be found at:
 
 ## Business and Data Understanding 
 
-We are sourcing the data for this project from the King County House Sales dataset, which can be found at `kc_house_data.csv` in the data folder in this assignment's GitHub repository. The column name descriptions can also be found in this data folder, under the name `column_names.md`. We will analyze a list of variables such as price, square feet of living space, condition of living space, whether or not the property is waterfront, distance from Seattle Art Musueum using latitude and longitudes, and number of bedrooms and bathrooms. 
+We are sourcing the data for this project from the King County House Sales dataset, which can be found at `kc_house_data.csv` in the data folder in the GitHub repository. The column name descriptions can also be found in this data folder, under the name `column_names.md`. Our visualizations can also be found seperately in the visualization_images folder located in this repository. We will analyze a list of variables such as price, square feet of living space, condition of living space, whether or not the property is waterfront, distance from Seattle Art Musueum using latitude and longitudes, and number of bedrooms and bathrooms. 
 
 
 
 
 
 ## Modeling
+![Square Feet of Living Space](visualization_images/sqftliving.png)
 
 
 
+![Condition](visualization_images/condition.png)
+
+
+
+![Waterfront Amenity](visualization_images/waterfront.png)
 
 
 
