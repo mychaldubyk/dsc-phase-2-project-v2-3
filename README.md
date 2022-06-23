@@ -1,14 +1,11 @@
 ##  Overview
-We are a data science consulting company looking to provide predictive and actionable insights regarding sale pricing for relators.The analysis of variables such as price, price per square foot, distance from Seattle using latitude and longitudes, and number of bedrooms and bathrooms. 
+We are a data science consulting company named The ABCD Team looking to provide predictive and actionable insights regarding sale pricing for realtors using the power of big data. We hope to create a complex model using several different independent variables that can swifty and effectively achieve pricing estimates closer to realized housing prices than both the comparable method often used by realtors as well as a simple linear regression model. 
 
-Our presentation, where we analyze our dataset can be found at:
-
-We are a data science consulting company working with predictive sale pricing for relators. (price the home to sell)
-
+Our presentation, where we analyze our dataset can be found at: 
 
 ## Business and Data Understanding 
 
-We are sourcing the data for this project from the King County House Sales dataset, which can be found at `kc_house_data.csv` in the data folder in this assignment's GitHub repository. The column name descriptions can also be found in this data folder, under the name `column_names.md`.
+We are sourcing the data for this project from the King County House Sales dataset, which can be found at `kc_house_data.csv` in the data folder in this assignment's GitHub repository. The column name descriptions can also be found in this data folder, under the name `column_names.md`. We will analyze a list of variables such as price, square feet of living space, condition of living space, whether or not the property is waterfront, distance from Seattle Art Musueum using latitude and longitudes, and number of bedrooms and bathrooms. 
 
 
 
@@ -48,4 +45,4 @@ High-quality Statistical Communication includes rationale, results, limitations,
 
 ## Conclusion
 
-
+Both our complex model and our polynomial model displayed a higher level of fit and prediction quality than the often used comparable method as well as our own simple linear regression model. Our preferred complex and polynomial model takes into account a larger number of factors when estimating the housing price, and is sensitive to rapidly evolving market trends. The predictions when using our model will both save the realtor time when making listing decisions, as well as creating a more accurate listing price. 
