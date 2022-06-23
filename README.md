@@ -32,6 +32,10 @@ Based on a coefficient of 510,400 a property with Waterfront increases price on 
 
 ## Regression Results
 
+
+
+
+
 Recall that communication is one of the key data science "soft skills". In Phase 2, we are specifically focused on Statistical Communication. We define Statistical Communication as:
 
 > Communicating **results of statistical analyses** to diverse audiences via writing and live presentation
