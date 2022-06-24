@@ -49,7 +49,7 @@ Our final model had an R2 of .738, meaning that 73.8 percent of the variation in
 
 Some limitations of our final model include possible issues with multicollinearity in some of our independent variables such as sqft_above, bathrooms, sqft_living15, sqft_lot, and sqft_lot15 which all have a greater than .7 correlation with sqft_living. There are also issues with some independent variables being statistically significant within the model. Independent variables such as waterfront_unknown, sqft_lot, grade_4 Low, sqft_basement, condition_Fair, and floors all display p-values that are greater than alpha value of .05. Another possible limitation of our model is that we kept possible outliers within the dataset which may skew our results.
 
-We recommend that realtors utilize our complex model instead of using the commonly used comparables method. Our model offers time saving given its ease of use and also gives a more accurate result than other methods. Our model takes in a large number of variables when performing its regression, and is senstive to rapidly evolving market trends. Given our models accuracy and ease of use, we hope to save realtors both dollars and time.
+We recommend that realtors utilize our complex model instead of using the commonly used comparables method. Our model offers time saving given its ease of use and also gives a more accurate result than other methods. This complex model takes in a large number of variables when performing its regression, and is senstive to rapidly evolving market trends. Given our models accuracy and ease of use, we hope to save realtors both dollars and time.
 
 ### Next Steps
 
