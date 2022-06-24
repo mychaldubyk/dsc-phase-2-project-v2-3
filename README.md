@@ -9,9 +9,7 @@ We are sourcing the data for this project from the King County House Sales datas
 
 
 
-
-
-## Modeling
+## Modeling and Regression Results 
 
 ### Square Foot of Living Space vs Price
 ![Square Foot of Living Space](visualization_images/sqftliving.png)
@@ -30,17 +28,6 @@ Our model found that the difference between Average and Fair conditions was not 
 Based on a coefficient of 510,400 a property with Waterfront increases price on an average of 510,400 dollars compared to propertys with no Waterfront.
 
 
-## Regression Results
-
-
-
-
-
-Recall that communication is one of the key data science "soft skills". In Phase 2, we are specifically focused on Statistical Communication. We define Statistical Communication as:
-
-> Communicating **results of statistical analyses** to diverse audiences via writing and live presentation
-
-Note that this is the same as in Phase 1, except we are replacing "basic data analysis" with "statistical analyses".
 
 High-quality Statistical Communication includes rationale, results, limitations, and recommendations:
 
