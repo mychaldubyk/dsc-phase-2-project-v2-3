@@ -47,6 +47,7 @@ Based on a coefficient of 510,400 a property with Waterfront increases price on 
 ### Results
 Our final model had an R2 of .738, meaning that 73.8 percent of the variation in price is explained by our regression model. Our final model also had a Mean Squared Error 180028.55 and a Root Mean Squared Error of 433.62. On average, our model is off from the actual price by 433.62 dollars. 
 
+Some limitations of our final model include possible issues with multicollinearity in some of our independent variables such as sqft_above, bathrooms, sqft_living15, sqft_lot, and sqft_lot15 which all have a greater than .7 correlation with sqft_living. There are also issues with some independent variables being statistically significant within the model. Independent variables such as waterfront_unknown, sqft_lot, grade_4 Low, sqft_basement, condition_Fair, and floors all display p-values that are greater than alpha value of .05. Another possible limitation of our model is that we kept possible outliers within the dataset which may skew our results.
 
   * You need at least one overall model metric (e.g. r-squared or RMSE) and at least two feature coefficients.
   * For a business audience, make sure you connect any metrics to real-world implications. You do not need to get into the details of how linear regression works.
@@ -54,6 +55,7 @@ Our final model had an R2 of .738, meaning that 73.8 percent of the variation in
 * **Limitations:** Identifying the limitations and/or uncertainty present in your analysis
   * This could include p-values/alpha values, confidence intervals, assumptions of linear regression, missing data, etc.
   * In general, this should be more in-depth for a data science audience and more surface-level for a business audience.
+  * pvalues left out possible outliters 
 * **Recommendations:** Interpreting the model results and limitations in the context of the business problem
   * What should stakeholders _do_ with this information?
 
