@@ -3,8 +3,11 @@ We are a data science consulting company named The ABCD Team looking to provide 
 
 Our presentation, where we analyze our dataset can be found at: 
 
+## Business Problem
 
-## Business and Data Understanding 
+During a typical Real Estate listing process, a Real Estate Agent is required to search through nearby recent sales to find “comparables.” “Comparables” are recently sold listings that that closely mirror key features such as square footage, key amenities, etc, and select several similar properties to compare the new listing property to, and to help assign a reasonable listing price. Although selecting comparables can help create somewhat reasonable predictions, it can also have drawbacks, inconsistencies, and be a time consuming process for a Realtor.
+
+## Data Understanding 
 
 We are sourcing the data for this project from the King County House Sales dataset, which can be found at `kc_house_data.csv` in the data folder in the GitHub repository. The column name descriptions can also be found in this data folder, under the name `column_names.md`. Our visualizations can also be found seperately in the visualization_images folder located in this repository. We will analyze a list of variables from the Kings County housing data such as price, square foot of living space, condition of living space, whether or not the property is waterfront, distance from Seattle Art Musueum using latitude and longitudes, and the number of bedrooms and bathrooms. 
 
