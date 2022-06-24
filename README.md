@@ -12,6 +12,8 @@ We are sourcing the data for this project from the King County House Sales datas
 ## Modeling and Regression Results 
 
 
+
+
 High-quality Statistical Communication includes rationale, results, limitations, and recommendations:
 
 * **Rationale:** Explaining why you are using statistical analyses rather than basic data analysis
@@ -30,11 +32,18 @@ When scaling our model, we found an increase in one standard deviation of Square
 ### Condition of Living Space vs Price
 ![Condition](visualization_images/condition.png)
 
+The above graph shows the Average Price of home sold per the 5 conditions, Poor, Fair, Average, Good, and Very Good. While looking at the average price per condition shows a clear gap between Fair and Average homes, it does not take into account other variables. For our model, we isolated Condition and compared how Poor, Fair, Good, and Very Good homes may differ in price compared to Average homes.
+
+
 Our model found that the difference between Average and Fair conditions was not significant. Our model found that Poor condition has a coefficient of -93,130 meaning that on average, a condition of Fair is associated with a 93,130 decrease in price compared to the condition of Average. A condition of Good has a coefficient of 34,730 meaning that on average, a condition of Good is associated with a 34,730 increase in price. A condition of Very Good has a coefficient of 65,560, meaning that on average, a condition of Very Good is associated with a 65,560 increase in price.
 
 
 ### Waterfront Property, or not?
 ![Waterfront Amenity](visualization_images/waterfront.png)
+
+The above graph shows the average price of home sold with Waterfront property versus no Waterfront property for our data set. Our model isolated this variable from others to see how much value add a Waterfront property has compared to a non-Waterfront property, all other variables held equal.
+
+
 Based on a coefficient of 510,400 a property with Waterfront increases price on an average of 510,400 dollars compared to propertys with no Waterfront.
 
 
