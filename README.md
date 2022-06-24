@@ -12,8 +12,6 @@ We are sourcing the data for this project from the King County House Sales datas
 ## Modeling and Regression Results 
 
 
-
-
 High-quality Statistical Communication includes rationale, results, limitations, and recommendations:
 
 * **Rationale:** Explaining why you are using statistical analyses rather than basic data analysis
@@ -46,9 +44,10 @@ The above graph shows the average price of home sold with Waterfront property ve
 
 Based on a coefficient of 510,400 a property with Waterfront increases price on an average of 510,400 dollars compared to propertys with no Waterfront.
 
+### Results
+Our final model had an R2 of .738, meaning that 73.8 percent of the variation in price is explained by our regression model. Our final model also had a Mean Squared Error 180028.55 and a Root Mean Squared Error of 433.62. On average, our model is off from the actual price by 433.62 dollars. 
 
 
-* **Results:** Describing the overall model metrics and feature coefficients
   * You need at least one overall model metric (e.g. r-squared or RMSE) and at least two feature coefficients.
   * For a business audience, make sure you connect any metrics to real-world implications. You do not need to get into the details of how linear regression works.
   * For a data science audience, you don't need to explain what a metric is, but make sure you explain why you chose that particular one.
