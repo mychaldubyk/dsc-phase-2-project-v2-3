@@ -45,11 +45,11 @@ The above graph shows the average price of home sold with Waterfront property ve
 Based on a coefficient of 510,400 a property with Waterfront increases price on an average of 510,400 dollars compared to propertys with no Waterfront.
 
 ### Results
-Our final model had an R2 of .738, meaning that 73.8 percent of the variation in price is explained by our regression model. Our final model also had a Mean Squared Error 180028.55 and a Root Mean Squared Error of 433.62. On average, our model is off from the actual price by 433.62 dollars. 
+Our final model had an R2 of .738, meaning that 73.8 percent of the variation in price is explained by our regression model. Our final model also had a Root Mean Squared Error 180028.54. This means on average, our model is off from the actual price by $180,028. 
 
 Some limitations of our final model include possible issues with multicollinearity in some of our independent variables such as sqft_above, bathrooms, sqft_living15, sqft_lot, and sqft_lot15 which all have a greater than .7 correlation with sqft_living. There are also issues with some independent variables being statistically significant within the model. Independent variables such as waterfront_unknown, sqft_lot, grade_4 Low, sqft_basement, condition_Fair, and floors all display p-values that are greater than alpha value of .05. Another possible limitation of our model is that we kept possible outliers within the dataset which may skew our results.
 
-We recommend that realtors utilize our complex model instead of using the commonly used comparables method. Our model offers time saving given its ease of use and also gives a more accurate result than other methods. This complex model takes in a large number of variables when performing its regression, and is senstive to rapidly evolving market trends. Given our models accuracy and ease of use, we hope to save realtors both dollars and time.
+Or complex model displayed a higher level of fit and prediction quality than the often used comparable method as well as our own simple linear regression model. Our model offers time saving given its ease of use and also gives a more accurate result than other methods. This complex model takes in a large number of variables when performing its regression, and is senstive to rapidly evolving market trends. The predictions when using our model will both save the realtor time when making listing decisions, as well as creating a more accurate listing price. 
 
 ### Next Steps
 
@@ -61,4 +61,10 @@ We recommend that realtors utilize our complex model instead of using the common
 
 ## Conclusion
 
-Both our complex model and our polynomial model displayed a higher level of fit and prediction quality than the often used comparable method as well as our own simple linear regression model. Our preferred complex and polynomial model takes into account a larger number of factors when estimating the housing price, and is sensitive to rapidly evolving market trends. The predictions when using our model will both save the realtor time when making listing decisions, as well as creating a more accurate listing price. 
+Creating listing prices based on our model is a significant improvement:
+
+The multiple linear regression model shows an overall r-squared of .738, and the polynomial regression has value of .856. This high level of fit represents a substantial increase in prediction quality from the methodology of choosing 2-3 comparables or a simple regression model (.49 r-squared)
+RMSE of 188,028.55 shows that our model will be off an average of 188,028 dollars
+The regression modeling takes into account a much larger number of factors in housing price, and is sensitive to rapidly evolving market variables
+The predictions can be made quickly, and the model saves the Realtor time both in making listing decisions, and creating the most accurate listing price
+Using our model instead of searching for comps will save time and energy!
