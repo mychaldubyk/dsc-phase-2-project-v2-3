@@ -2,7 +2,7 @@
 We are a data science consulting company named The ABCD Team looking to provide predictive and actionable insights regarding sale pricing for realtors using the power of big data. We hope to create a complex model using several different independent variables that can swifty and effectively achieve pricing estimates closer to realized housing prices than both the comparables method often used by realtors as well as our simple linear regression model. 
 
 Our presentation, where we analyze our dataset can be found at: 
-["Creating Accurate Real Estate Listings: The Power of Big Data"](Phase_2_Powerpoint.pdf)
+["Creating Accurate Real Estate Listings: The Power of Big Data"](phase_2_powerpoint.pdf)
 
 ## Business Problem
 
