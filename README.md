@@ -55,8 +55,8 @@ Or complex model displayed a higher level of fit and prediction quality than the
 
 Creating listing prices based on our model is a significant improvement:
 
-The multiple linear regression model shows an overall r-squared of .738, and the polynomial regression has value of .856. This high level of fit represents a substantial increase in prediction quality from the methodology of choosing 2-3 comparables or a simple regression model (.49 r-squared)
-RMSE of 188,028.55 shows that our model will be off an average of 188,028 dollars
-The regression modeling takes into account a much larger number of factors in housing price, and is sensitive to rapidly evolving market variables
-The predictions can be made quickly, and the model saves the Realtor time both in making listing decisions, and creating the most accurate listing price
-Using our model instead of searching for comps will save time and energy!
+* The multiple linear regression model shows an overall r-squared of .738, and the polynomial regression has value of .856. This high level of fit represents a substantial increase in prediction quality from the methodology of choosing 2-3 comparables or a simple regression model (.49 r-squared)
+* RMSE of 188,028.55 shows that our model will be off an average of 188,028 dollars
+* The regression modeling takes into account a much larger number of factors in housing price, and is sensitive to rapidly evolving market variables
+* The predictions can be made quickly, and the model saves the Realtor time both in making listing decisions, and creating the most accurate listing price
+* Using our model instead of searching for comps will save time and energy!
