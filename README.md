@@ -11,8 +11,18 @@ We are sourcing the data for this project from the King County House Sales datas
 
 ## Modeling and Regression Results 
 
+
+High-quality Statistical Communication includes rationale, results, limitations, and recommendations:
+
+* **Rationale:** Explaining why you are using statistical analyses rather than basic data analysis
+  * For example, why are you using regression coefficients rather than just a graph?
+  * What about the problem or data is suitable for this form of analysis?
+  * For a data science audience, this includes your reasoning for the changes you applied while iterating between models.
+
 ### Square Foot of Living Space vs Price
 ![Square Foot of Living Space](visualization_images/sqftliving.png)
+
+The above graph shows the relationship between Square Foot of Living Space and Price for our whole data set. While this shows the linear relationship between Square Foot of Living Space and Price, it does not account for other variables, such as condition and whether or not the property is Waterfront. Our model was utilized to isolate the relationship between Square Foot of Living Space vs. Price.
 
 When scaling our model, we found an increase in one standard deviation of Squarefoot of Living Space leads to a price increase of 89,100 dollars. This equates to an increase of living area by 921 square feet leads to a price increase of 89,100, all other variables held equal. This equates to a 96.74 dollar increase per square foot increase.
 
@@ -29,12 +39,6 @@ Based on a coefficient of 510,400 a property with Waterfront increases price on 
 
 
 
-High-quality Statistical Communication includes rationale, results, limitations, and recommendations:
-
-* **Rationale:** Explaining why you are using statistical analyses rather than basic data analysis
-  * For example, why are you using regression coefficients rather than just a graph?
-  * What about the problem or data is suitable for this form of analysis?
-  * For a data science audience, this includes your reasoning for the changes you applied while iterating between models.
 * **Results:** Describing the overall model metrics and feature coefficients
   * You need at least one overall model metric (e.g. r-squared or RMSE) and at least two feature coefficients.
   * For a business audience, make sure you connect any metrics to real-world implications. You do not need to get into the details of how linear regression works.
